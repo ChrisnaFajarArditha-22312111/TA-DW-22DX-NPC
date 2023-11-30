@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menghijaukan Dunia Digital</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #007700;
+            color: white;
+        }
+
+        header {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .column {
+            width: 45%;
+            padding: 10px;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Menghijaukan Dunia Digital</h1>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="column">
+                    <h2>Digital Forest</h2>
+                    <p>The Digital Forest is an innovative digital garden project.
+It features an expansive and interconnected system of plants, insects, and microorganisms, representing a complex digital ecosystem.</p>
+                    <img src="digital-forest.jpg" alt="Digital Forest">
+                </div>
+                <div class="column">
+                    <h2>Greener Code</h2>
+                    <p>Greener Code is an AI-driven tool that analyzes the codebase of any software project. 
+It then provides actionable insights and suggestions to reduce energy consumption, greenhouse gas emissions, and promote environmental sustainability.</p>
+                    <img src="greener-code.jpg" alt="Greener Code">
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
